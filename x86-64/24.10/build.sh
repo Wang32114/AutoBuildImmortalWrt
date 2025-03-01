@@ -42,6 +42,14 @@ PACKAGES="$PACKAGES openssh-sftp-server"
 PACKAGES="$PACKAGES fdisk"
 PACKAGES="$PACKAGES script-utils"
 PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
+PACKAGES="$PACKAGES luci-app-socat_git-24.272.29284-d386ad6_all"
+PACKAGES="$PACKAGES luci-i18n-socat-zh-cn_git-24.272.29284-d386ad6_all"
+PACKAGES="$PACKAGES luci-app-syncdial_2.0_all"
+PACKAGES="$PACKAGES luci-app-netdata_1.0_all"
+PACKAGES="$PACKAGES luci-i18n-netdata-zh-cn_git-24.272.29284-d386ad6_all"
+PACKAGES="$PACKAGES luci-app-adbyby-plus_2.0_all"
+PACKAGES="$PACKAGES luci-i18n-adbyby-plus-zh-cn_git-24.272.29284-d386ad6_all"
+PACKAGES="$PACKAGES luci-app-unblockneteasemusic_3.3_all"
 
 # 判断是否需要编译 Docker 插件
 if [ "$INCLUDE_DOCKER" = "yes" ]; then
