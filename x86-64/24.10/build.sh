@@ -53,7 +53,6 @@ PACKAGES="$PACKAGES luci-i18n-netdata-zh-cn_git-24.272.29284-d386ad6_all"
 
 # 判断是否需要编译 Docker 插件
 if [ "$INCLUDE_DOCKER" = "yes" ]; then
-    PACKAGES="$PACKAGES luci-i18n-dockerman-zh-cn"
     echo "Adding package: luci-i18n-dockerman-zh-cn"
 fi
 
